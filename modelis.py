@@ -11,7 +11,25 @@ df = pd.read_csv("tirs.csv")
 y = df["Machine failure"]
 
 # Pazīmes
-X = df.drop("Machine failure", axis=1)
+X = df.drop([
+
+"Machine failure",
+
+"UDI",
+
+"Product ID",
+
+"TWF",
+
+"HDF",
+
+"PWF",
+
+"OSF",
+
+"RNF"
+
+], axis=1)
 
 # Teksta kolonnas pārvērš skaitļos
 X = pd.get_dummies(X, drop_first=True)
