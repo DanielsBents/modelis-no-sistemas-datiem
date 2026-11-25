@@ -1,0 +1,11 @@
+Datu kopas nosaukums:
+AI4I 2020 Predictive Maintenance Dataset
+
+Avots:
+Kaggle
+
+Lejupielādes datums:
+25.11.2026
+
+Licence:
+Skatīt datu kopas lapā.
